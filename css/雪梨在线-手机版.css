@@ -1,0 +1,373 @@
+.header{
+	width: 1200px;
+	height: 101px;
+	margin: 0px 360px;
+}
+.header .logo{
+	padding-left: 9px;
+	padding-top: 33px;
+	float: left;
+}
+.header .nav{
+	margin-left: 71px;
+	padding-top: 33px;
+	float: left;
+}
+.header .nav li{
+	padding: 6px 8px 7px;
+	margin-right: 24px;
+	float: left;
+}
+.header .nav li a{
+	color: #050505;
+	font-size: 18px;
+	font-weight: 400;
+}
+.header .nav .first{
+	border-bottom: 2px solid #00A4FF;
+}
+.header .nav li:hover{
+	border-bottom: 2px solid #00A4FF;
+}
+.header form{
+	float: right;
+	padding-top: 31px;
+}
+.header .search{
+	width: 344px;
+	height: 38px;
+	border: 1px solid #00A4FF;
+	padding-left: 15px;
+	float: left;
+}
+.header .submit{
+	width: 50px;
+	height: 40px;
+	background: #00A4FF url(../image/search.png) no-repeat center center;
+	border: 0px;
+	float: left;
+}
+.header form p{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 31px;
+	float: left;
+	font-size: 14px;
+}
+.header form p a{
+	color: #666666;
+}
+.container{
+	height: 420px;
+	width: 1920px;
+	background-color: #1C036C;
+	margin: 0px auto;
+}
+.banner1{
+	height: 420px;
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+.banner1 .nav{
+	background-color: rgba(0,0,0,0.3);
+	width: 190px;
+	height: 412px;
+	padding-top: 8px;
+	position: absolute;
+	left: -11px;
+	top: 0px;
+}
+.banner1 .nav li{
+	background: url(../image/right.png) no-repeat right center;
+	width: 146px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.banner1 .nav li a{
+	color: #FFFFFF;
+}
+.banner1 .nav .first{
+	background: url(../image/blueright.png) no-repeat right center;
+}
+.banner1 .nav .first a{
+	color: #00B4FF;
+}
+.banner1 .nav li:hover{
+	background: url(../image/blueright.png) no-repeat right center;
+}
+.banner1 .nav li:hover a{
+	color: #00B4FF;
+}
+.subnav{
+	width: 1200px;
+	height: 60px;
+	margin: 8px 360px 0px;
+	background-color: #FFFFFF;
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+}
+.subnav ul{
+	height: 18px;
+	padding: 21px 61px 21px 0px;
+}
+.subnav li{
+	height: 16px;
+	line-height: 16px;
+	float: left;
+	padding: 0px 34px;
+	border-right: 1px solid #BFBFBF;
+	font-weight: bold;
+}
+.subnav li a{
+	color: #050505;
+}
+.subnav .first a{
+	color: #00A4FF;
+}
+.subnav .last{
+	border: none;
+}
+.subnav p{
+	float: right;
+	font-size: 14px;
+	height: 16px;
+	line-height: 16px;
+	font-weight: bold;
+}
+.subnav p a{
+	color: #00A4FF;
+}
+.subnav li:hover a{
+	color: #00A4FF;
+}
+.column1 .head{
+	width: 1169px;
+	height: 77px;
+	padding-right: 31px;
+	margin: 0px 360px;
+}
+.column1 .left{
+	font-size: 20px;
+	color: #494949;
+	float: left;
+	padding-top: 33px;
+}
+.column1 .right{
+	font-size: 12px;
+	float: right;
+	padding-top: 40px;
+}
+.column1 .right a{
+	color: #A5A5A5;
+}
+.show{
+	width: 1200px;
+	height: 285px;
+	margin: 0px 360px;
+}
+.show li{
+	background-color: #FFFFFF;
+	width: 228px;
+	height: 270px;
+	margin: 0px 15px 15px 0px;
+	float: left;
+}
+.show li:hover{
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+.show .last{
+	margin-right: 0px;
+}
+.show h4{
+	font-size: 14px;
+	font-weight: 400;
+	color: #050505;
+	height: 38px;
+	padding: 22px 20px 16px 23px;
+}
+.show p{
+	font-size: 12px;
+	color: #999999;
+	padding-left: 23px;
+}
+.show span{
+	color: #FF7C2D;
+}
+.column2 .head{
+	width: 1169px;
+	height: 62px;
+	padding-right: 31px;
+	margin: 0px 360px;
+}
+.column2 .left{
+	font-size: 20px;
+	color: #494949;
+	float: left;
+	padding-top: 18px;
+}
+.column2 .head ul{
+	padding-top: 22px;
+	padding-left: 291px;
+	width: 327px;
+	height: 21px;
+	float: left;
+}
+.column2 .head li{
+	padding-right: 66px;
+	float: left;
+}
+.column2 .head li a{
+	color: #868686;
+}
+.column2 .head .first a{
+	color: #00A4FF;
+}
+.column2 .head li:hover a{
+	color: #00A4FF;
+}
+.column2 .head .last{
+	padding-right: 0px;
+}
+.column2 .right{
+	font-size: 12px;
+	float: right;
+	padding-top: 25px;
+}
+.column2 .right a{
+	color: #A5A5A5;
+}
+.column3{
+	height: 392px;
+	width: 1200px;
+	margin: 0px 360px;
+}
+.column3 .head{
+	width: 1200px;
+	height: 72px;
+	margin: 0px 360px;
+}
+.column3 .head p{
+	font-size: 20px;
+	color: #494949;
+	padding-top: 16px;
+}
+.column3 .banner2{
+	height: 320px;
+	float: left;
+	position: relative;
+}
+.column3 .banner2 div{
+	position: absolute;
+	top: 88px;
+	left: 25px;
+}
+.column3 .banner2 div h1{
+	font-size: 30px;
+	color: #F9E103;
+}
+.column3 .banner2 div p{
+	font-size: 27px;
+	color: #FFFFFF;
+	padding-bottom: 12px;
+}
+.column3 .banner2 div a{
+	display: block;
+	width: 87px;
+	height: 23px;
+	line-height: 23px;
+	margin-left: 3px;
+	border: 1px solid #F9E103;
+	color: #F9E103;
+	font-size: 13px;
+	text-align: center;
+}
+.column3 li{
+	width: 228px;
+	height: 320px;
+	padding-left: 15px;
+	float: left;
+	position: relative;
+}
+.column3 li div{
+	height: 122px;
+	width: 228px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.column3 li div h4{
+	font-size: 14px;
+	color: #ffffff;
+	padding: 18px 91px 9px 29px;
+}
+.column3 li div p{
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 18px;
+	padding: 0px 28px 17px 25px;
+}
+.column3 li div h4 span{
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+.footer{
+	width: 1917.3px;
+	height: 471px;
+	margin: 0px auto;
+	margin-top: 73px;
+	background-color: #ffffff;
+}
+.footer div{
+	width: 376px;
+	padding-left: 380px;
+	padding-top: 124px;
+	float: left;
+}
+.footer div h1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #00A4FF;
+	padding-bottom: 35px;
+}
+.footer div p{
+	font-size: 12px;
+	color: #666666;
+	padding-bottom: 33px;
+}
+.footer div a{
+	display: block;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #00A4FF;
+	color: #00A4FF;
+	font-size: 16px;
+	text-align: center;
+}
+.footer ul{
+	padding-top: 130px;
+	float: left;
+}
+.footer .left{
+	width: 80px;
+	padding: 130px 146px 0px 272px;
+}
+.footer .right{
+	width: 64px;
+	padding: 130px 0px 0px 121px;
+}
+.footer li{
+	font-size: 12px;
+	padding-bottom: 4px;
+}
+.footer li a{
+	color: #333333;
+}
+.footer ul .first{
+	font-size: 16px;
+	padding-bottom: 15px;
+}
